@@ -5,6 +5,7 @@
     --silver-color : #727272 ;
     --golden-color : #FF900E ;
     --white-color : #FFFFFF ;
+    --extra-color-effect : rgba(250, 182, 182, 0.486);
 
 }
 
@@ -194,4 +195,51 @@ header {
 
 /* section 3 */
 
+.section3 {
+    padding: 0 240px;
+}
+.sec3-title {
+    color: var(--primary-color);
+    padding-bottom: 24px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.sec3-des {
+    width: 542px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--silver-color);
+    padding-bottom: 100px;
+}
+.sec3-cards {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    column-gap: 125px ;
+    padding: 0 50px;
+}
+.sec3-single-card {
+    text-align: center;
+    padding: 60px 100px;
+    border: 1px solid var(--golden-color);
+    border-radius: 10px;
+    transition: box-shadow .5s , border .5s , background-color .5s;
+}
+.sec3-single-card:hover {
+    cursor: pointer;
+    box-shadow: 4px 7px 11px 3px var(--golden-color);
+    border: 1px solid var(--extra-color-effect);
+    background-color: var(--extra-color-effect)
+}
 
+
+.sec3-card-number {
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--secondary-color)
+}
+.sec3-card-info {
+    padding: 10px 0 5px 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--silver-color);
+}
