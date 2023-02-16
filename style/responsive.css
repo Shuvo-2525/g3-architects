@@ -1,0 +1,64 @@
+@media screen and (max-width: 480px) {
+
+    .section1 , .section2 , .section3 , footer {
+        display: none;
+    }
+    .nav-list {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    .nav-title {
+        padding-bottom: 20px;
+    }
+    .nav-container {
+        display: block;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    /* banner section */
+    .banner {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .banner-des {
+        margin-bottom: 53px;
+        font-size: 16px;
+        padding: 0 0px;
+    }
+    .banner-img {
+        margin-top: 35px;
+        justify-content: center;
+        padding: 10px;
+    }
+    .banner-title {
+        padding-bottom: 25px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  }
