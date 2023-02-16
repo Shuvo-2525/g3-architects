@@ -170,6 +170,7 @@ header {
     align-items: flex-end;
     background-image: url(../images/architect.png);
     background-repeat: no-repeat;
+    background-position: top;
 }
 .sec2-btn-special {
     font-size: 65px;
@@ -199,26 +200,29 @@ header {
 /* section 3 */
 
 .section3 {
-    padding: 0 240px;
+    /* padding: 0 240px; */
 }
 .sec3-title {
     color: var(--primary-color);
     padding-bottom: 24px;
     font-weight: 700;
     font-size: 45px;
+    padding-left: 240px;
 }
 .sec3-des {
-    width: 542px;
+    width: 816px;
     font-weight: 400;
     font-size: 16px;
     color: var(--silver-color);
     padding-bottom: 100px;
+    padding-left: 240px;
 }
 .sec3-cards {
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     column-gap: 25px ;
-    padding: 0 50px;
+    padding: 0 250px;
+    justify-content: center; 
 }
 .sec3-single-card {
     text-align: center;
@@ -266,8 +270,6 @@ padding-bottom: 50px;
     padding: 0 240px;
     justify-content: space-evenly;
 }
-
-
 
 .footer-icons img{
     cursor: pointer;

@@ -1,8 +1,6 @@
 @media screen and (max-width: 480px) {
 
-    .section3 , footer {
-        display: none;
-    }
+    
     .nav-list {
         display: flex;
         gap: 20px;
@@ -109,19 +107,65 @@
         transition: background-color .5s , color .5s;
     }
 
+/* section 3 */
 
+.section3 {
+    padding: 0;
+}
+.sec3-des {
+    width: 100%;
+    text-align: center;
+    padding: 0 25px;
+}
+.sec3-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 45px;
+}
 
+.sec3-title {
+    text-align: center;
+    padding: 25px;
+}
 
+.sec3-single-card {
+    padding: 20px;
+}
 
+.sec3-card-info {
+    padding: 0;
+    font-size: 72%;
+}
+.sec3-card-number {
+    font-size: 100%;
+}
 
+/* footer */
 
+.footer-icons {
+    display: grid;
+    padding: 0;
+    gap: 27px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.footer-icons img{
+    text-align: center;
+    width: 50%;
+}
+.figma {
+    grid-column: 1 / span 2;
+}
 
+.copyright {
+    margin-top: 50px;
+    padding: 0;
+}
 
-
-
-
-
-
-
+footer {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
     
   }
