@@ -92,19 +92,33 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 25px;
-    border: 1px solid;
     width: 50%;
 }
 
 .sec1-img-col img {
     width: 100%;
+    transition: box-shadow .5s;
+    cursor: pointer;
 }
 
 .sec1-img-col img:hover {
-   display: none;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .sec1-info-col {
-    border: 1px solid;
     width: 50%;
+}
+.sec1-title-silver {
+    color: var(--silver-color);
+}
+.sec1-title {
+    color: var(--primary-color);
+}
+.sec1-title-golden {
+    color: var(--golden-color);
+}
+.sec1-des {
+    color: var(--silver-color);
+    padding-top: 24px;
+    padding-bottom: 35px ;
 }
