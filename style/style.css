@@ -217,12 +217,12 @@ header {
 .sec3-cards {
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
-    column-gap: 125px ;
+    column-gap: 25px ;
     padding: 0 50px;
 }
 .sec3-single-card {
     text-align: center;
-    padding: 60px 100px;
+    padding: 60px;
     border: 1px solid var(--golden-color);
     border-radius: 10px;
     transition: box-shadow .5s , border .5s , background-color .5s;
@@ -260,14 +260,14 @@ color: var(--secondary-color);
 padding-top: 24px;
 padding-bottom: 50px;
 }
-.footer-icons{
-    display: grid;
-    grid-template-columns: repeat(5 , 1fr);
-    gap: 155px;
-    align-items: center;
-    justify-items: center;
+.footer-icons {
+    display: flex;
+    gap: 80px;
     padding: 0 240px;
+    justify-content: space-evenly;
 }
+
+
 
 .footer-icons img{
     cursor: pointer;

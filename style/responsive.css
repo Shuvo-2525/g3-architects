@@ -1,6 +1,6 @@
 @media screen and (max-width: 480px) {
 
-    .section1 , .section2 , .section3 , footer {
+    .section3 , footer {
         display: none;
     }
     .nav-list {
@@ -38,11 +38,45 @@
         line-height: 40px;
     }
 
+    /* section 1 */
 
+    .section1 {
+        display: flex;
+        align-items: center;
+        padding: 5px ;
+        column-gap: 3px;
+        flex-direction: column-reverse;
+    }
+
+    .sec1-title {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .sec1-des {
+        text-align: center;
+    }
    
-    
+    .sec1-img-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        margin-top: 54px;
+        width: 75%;
+    }
 
+    /* section 2 */
 
+    .section2 {
+        display: block;
+        padding: 50px 30px;
+    }
+    .sec2-info-col {
+        width: 100%;
+        text-align: justify;
+    }
+    .sec2-title {
+        text-align: center;
+    }
 
 
 
