@@ -85,7 +85,7 @@ header {
 .section1{
     display: flex;
     align-items: center;
-    padding: 85px 300px;
+    padding: 85px 300px 0 300px; 
     column-gap: 73px;
 }
 .sec1-img-col {
@@ -121,4 +121,51 @@ header {
     color: var(--silver-color);
     padding-top: 24px;
     padding-bottom: 35px ;
+}
+
+/* section 2 */
+.section2 {
+    display: flex;
+    align-items: center;
+    padding: 130px 240px;
+    gap: 54px;
+}
+.sec2-img-col{
+    width: 50%;
+}
+.sec2-img-col img{
+    width: 100%;
+}
+
+.sec2-title {
+    border-left: 1px solid var(--golden-color);
+    padding-left: 21px;
+}
+.sec2-des {
+    padding: 24px 0 30px 0;
+}
+.sec2-sub {
+    padding: 30px ;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.sec2-des {
+    color: var(--secondary-color);
+}
+.sec2-sub-title {
+    padding-bottom: 10px;
+}
+
+.sec2-sub-des {
+    color: var(--secondary-color);
+}
+
+.sec2-img-col{
+    width: 50%;
+    border: 1px solid ;
+    width: 100%;
+    /* height: 100%;      fixed the backgroudd image of setting up the bottom in the left corner */
+    background: url(../images/architect.png);
+    position: cover;
 }
