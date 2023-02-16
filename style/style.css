@@ -28,7 +28,11 @@ header {
 }
 .nav-list-item a {
     text-decoration: none;
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+    transition: color .2s;
+}
+.nav-list-item a:hover {
+    color: red;
 }
 /* banner */
 .banner {
@@ -242,4 +246,48 @@ header {
     font-weight: 600;
     font-size: 20px;
     color: var(--silver-color);
+}
+
+footer {
+    margin-top: 180px;
+    margin-bottom: 216px;
+    text-align: center;
+}
+.footer-title {
+color: var(--primary-color);
+}
+.footer-des {
+color: var(--secondary-color);
+padding-top: 24px;
+padding-bottom: 50px;
+}
+.footer-icons{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    gap: 155px;
+    align-items: center;
+    justify-items: center;
+    padding: 0 240px;
+}
+
+.footer-icons img{
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.footer-icons img:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.copyright {
+    margin-top: 130px;
+    padding: 0 240px;
+    
+}
+.footer-copy {
+    padding: 40px 0;
+    background-color: #FFF4E7;
+    font-weight: 400;
+    font-size: 20px;
 }
